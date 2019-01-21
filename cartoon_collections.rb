@@ -20,5 +20,5 @@ def find_the_cheese(array)
   cheese_types.each do |cheese|
   new_cheese << array.include?(cheese)
 end
-new_cheese
+new_cheese[0]
 end
